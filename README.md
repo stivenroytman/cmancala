@@ -18,7 +18,9 @@ make
 ### Windows
 
 ```powershell
-# Coming soon lol
+$winbinman = "https://github.com/stivenroytman/cmancala/releases/download/v0.6/mancala_win-x86_64.exe"
+Invoke-WebRequest $winbinman -OutFile mancala.exe
+.\mancala.exe
 ```
 
 ## TODO
